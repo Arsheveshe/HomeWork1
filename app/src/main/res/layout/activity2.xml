@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:ems="8"
+        android:layout_height="wrap_content"
+        android:autofillHints="EditText"
+        android:inputType="text"
+        android:text="@string/red"
+        android:textColor="#FF0000"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:ems="9"
+        android:layout_height="wrap_content"
+        android:autofillHints="EditText"
+        android:inputType="textPersonName"
+        android:text="@string/orange"
+        android:textColor="#FFB700"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:ems="10"
+        android:layout_height="wrap_content"
+        android:autofillHints="EditText"
+        android:inputType="phone"
+        android:text="@string/yellow"
+        android:textColor="#FFEB3B"
+        android:textStyle="italic"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:ems="11"
+        android:layout_height="wrap_content"
+        android:autofillHints="EditText"
+        android:inputType="number"
+        android:text="@string/green"
+        android:textColor="#08FF00"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:ems="12"
+        android:layout_height="wrap_content"
+        android:autofillHints="EditText"
+        android:inputType="textPassword"
+        android:text="@string/blue"
+        android:textColor="#00E2FF"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:ems="13"
+        android:layout_height="wrap_content"
+        android:autofillHints="EditText"
+        android:inputType="textEmailAddress"
+        android:text="@string/purple"
+        android:textColor="#AE19C8"
+        android:textSize="20sp" />
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
